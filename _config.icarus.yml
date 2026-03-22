@@ -128,7 +128,7 @@ footer:
         icon: fab fa-github
         url: https://github.com/rukaax
     云盘:
-        icon: fab fa-hard-drive
+        icon: fab fa-solid fa-hard-drive
         url: https://drive.rukaax.top
 # Article related configurations
 article:
@@ -246,7 +246,7 @@ widgets:
                 icon: fab fa-github
                 url: https://github.com/rukaax
             Mail:
-                icon: fab fa-envelope
+                icon: fab fa-regular fa-envelope-open
                 url: mailto:rukkaax@rukaax.top
             QQ:
                 icon: fab fa-qq
