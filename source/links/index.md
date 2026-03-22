@@ -1,0 +1,8 @@
+---
+title: links
+date: 2026-03-22 13:09:32
+---
+<div id="qexo-friends"></div>
+<link rel="stylesheet" href="https://unpkg.com/qexo-friends/friends.css"/>
+<script src="https://registry.npmmirror.com/qexo-static/1.6.0/files/hexo/friends.js"></script>
+<script>loadQexoFriends("qexo-friends", "qexo.rukaax.top")</script>
