@@ -40,6 +40,9 @@ class Footer extends Component {
                             <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a>
                             <br />
                             <a href="http://www.beian.miit.gov.cn" target="_blank" rel="noopener">晋ICP备2025071117号</a>
+                            <br />
+                            本网站由<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" rel="noopener"><img src="/img/又拍云_logo5.png" alt="又拍云" style="vertical-align: middle; height: 4em;" />提供云存储服务</a>
+
                             {showVisitorCounter ? <br /> : null}
                             {showVisitorCounter ? <span id="busuanzi_container_site_uv"
                                 dangerouslySetInnerHTML={{ __html: visitorCounterTitle }}></span> : null}
