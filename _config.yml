@@ -64,3 +64,7 @@ ignore: null
 theme: icarus
 deploy:
   type: ''
+algolia:
+  applicationID: 9NIXH3C9WI
+  indexName: blog_rukaax_top_9nixh3c9wi_articles
+  apiKey: ca3500e47a52eda92b24152344801311
