@@ -175,6 +175,7 @@ module.exports = class extends Component {
                 src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script> : null}
 
             {followItVerificationCode ? <meta name="follow.it-verification-code" content={followItVerificationCode} /> : null}
+            <script src="/js/sidebar-friends.js"></script>
         </head>;
     }
 };

@@ -38,6 +38,7 @@ module.exports = class extends Component {
             <script data-pjax src={url_for('/js/column.js')}></script>
             <Plugins site={site} config={config} page={page} helper={helper} head={false} />
             <script data-pjax src={url_for('/js/main.js')} defer></script>
+            <script src={cdn('instant.page', '5.1.1', 'instantpage.min.js')} type="module"></script>
         </Fragment>;
     }
 };

@@ -80,9 +80,7 @@ module.exports = class extends Component {
                                 })()}
                             </span> : null}
                             {/* Visitor counter */}
-                            {!index && plugins && plugins.busuanzi === true ? <span class="level-item" id="busuanzi_container_page_pv" dangerouslySetInnerHTML={{
-                                __html: _p('plugin.visit_count', '<span id="busuanzi_value_page_pv">0</span>')
-                            }}></span> : null}
+                            {!index ? <span id={url_for(page.link || page.path)} class="level-item leancloud_visitors" data-flag-title={page.title} dangerouslySetInnerHTML={{__html: '<i class="far fa-eye"></i>' + _p('plugin.visit_count', '  <span id="qexo-page-pv"><i class="fa fa-spinner fa-spin"></i></span>')}}></span> : null}
                         </div>
                     </div> : null}
                     {/* Title */}

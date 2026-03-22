@@ -42,6 +42,12 @@
             },
             {
                 "$ref": "/widget/followit.json"
+            },
+            {
+                "$ref": "/widget/qexo_friends.json"
+            },
+            {
+                "$ref": "/widget/qexo_talks.json"
             }
         ],
         "required": [

@@ -121,7 +121,8 @@
     }
 
     const $toc = $('#toc');
-    if ($toc.length > 0) {
+    if ($toc.length > 0)
+        $toc.addClass('column-right is-sticky'); {
         const $mask = $('<div>');
         $mask.attr('id', 'toc-mask');
 

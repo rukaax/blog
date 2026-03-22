@@ -42,6 +42,9 @@ class Footer extends Component {
                             <a href="http://www.beian.miit.gov.cn" target="_blank" rel="noopener">晋ICP备2025071117号</a>
                             <br />
                             本网站由<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" rel="noopener"><img src="/img/又拍云_logo5.png" alt="又拍云" style="vertical-align: middle; height: 4em;" />提供云存储服务</a>
+                            <br />
+                            <span id="busuanzi_container_site_uv" style="display: inline;">共<span id="qexo-site-uv"> Loading </span>个访客</span>
+                            <div dangerouslySetInnerHTML={{ __html: '<script src="/js/statistic.js"></script><script>loadStatistic("https://my.oplog.cn")</script>'}} />
 
                             {showVisitorCounter ? <br /> : null}
                             {showVisitorCounter ? <span id="busuanzi_container_site_uv"
