@@ -1,2 +1,6 @@
 onlyBuiltDependencies:
   - hexo-util
+
+packages:
+  - "."
+  - "workers-site"
