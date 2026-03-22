@@ -128,7 +128,7 @@ footer:
         icon: fab fa-github
         url: https://github.com/rukaax
     云盘:
-        icon: fab fa-solid fa-hard-drive
+        icon: fab fa-utility-duo fa-semibold fa-hard-drive
         url: https://drive.rukaax.top
 # Article related configurations
 article:
