@@ -8,4 +8,8 @@ updated: '2026-04-09T15:10:21.352+08:00'
 一名山西在校高中生，目前在学习前端。
 因为有点懒且不善言辞，所以该博客更新频率很慢
 
+希望结交更多的朋友AwA
+
+联系我：rukaax@rukaax.top
+
 使用的IDE：Webstorm,Clion,Visual studio 2022
