@@ -6,3 +6,4 @@ _multiconfig.yml
 node_modules/
 public/
 .npmrc.idea/
+.idea/
